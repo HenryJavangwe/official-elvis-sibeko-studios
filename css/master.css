@@ -286,6 +286,7 @@ Individual segment page styles
     animation:  18s linear 0s infinite alternate running rotating-banner;
     animation-play-state: running;
 }
+
 @-webkit-keyframes rotating-banner {
     0% {
         background-image: url(../assets/img/banner_images/index2.jpg);
