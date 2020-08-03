@@ -1,0 +1,49 @@
+
+.jumbotron {
+    margin-top: 120px;
+    background-color: goldenrod;
+}
+body {
+    background-color: #000000;
+}
+
+.view-toggler {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    
+}
+.view-toggler a {     
+    color: #ccc; 
+    padding-left: 7px;
+    font-weight: 900;
+}
+.view-toggler a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.view-toggler .active {
+    color: #000000;
+    background-color: goldenrod;
+    padding: 10px;
+    transition: all .5s;
+}
+
+#gallery div img {
+    margin-top: 30px;
+    max-width: 900px; 
+    width: 100%;
+    transition: all .6s;
+}
+#gallery div img:hover {
+    transform: scale(1.05);
+}
+
+@media all and (max-width: 450px){
+    .view-toggler {
+        display: none;
+    }
+    .browse-through {
+        text-align: center;
+    }
+}

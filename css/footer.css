@@ -1,0 +1,37 @@
+/* [01 footer styles] */
+.footer-wrapper {
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.upper-footer {
+    margin: 0 0 50px 0;
+    padding: 50px 0;
+    background-color: goldenrod;
+    color: #000000;
+}
+.contact-btn {
+    width: 200px;
+    color: #000000;
+    margin: 50px 20px 20px 20px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 40px;
+}
+.contact-btn:hover {
+    background-color: #000000;
+    color: goldenrod;
+}
+/* .contact-footer-wrapper {
+    padding: 50px 0 0 0;
+    background-color: goldenrod;
+} */
+/* .contact-upper-footer {
+    color: #000000;
+    height: 50vh;
+    padding: 50px 0;
+} */
+/* .contact-lower-footer {
+    background-color: #000000;
+    padding: 50px 0;
+} */
