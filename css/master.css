@@ -3,8 +3,8 @@ html, body {
     overflow-x: hidden;
 }
 body {
-    font-family: 'Titillium Web', sans-serif;
-    letter-spacing: 1px;
+    font-family: sans-serif;
+    /* letter-spacing: 1px; */
     background-color: #000000;
     color: #ffffff;
 }
@@ -46,6 +46,9 @@ h1,
 
 h2 {
     font-size: 3.1rem;
+}
+.gall {
+    color: #000000;
 }
 @media all and (max-width: 450px){
     .main-banner-inner {
