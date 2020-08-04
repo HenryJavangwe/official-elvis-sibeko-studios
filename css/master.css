@@ -374,8 +374,9 @@ Individual segment page styles
         background-position: center;
         background-size: cover;
         margin-top: 10px;
-        -webkit-animation:1800ms linear 0s 2 alternate running rotating-banner;
-        animation:  18s linear 0s 2 alternate running rotating-banner;
+        animation-play-state: paused;
+        /* -webkit-animation:1800ms linear 0s infinite alternate running rotating-banner;
+        animation:  18s linear 0s infinite alternate running rotating-banner; */
     }
     .about-banner-inner {
         margin-top: 20px;
