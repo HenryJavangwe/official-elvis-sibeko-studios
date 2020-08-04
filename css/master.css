@@ -277,7 +277,6 @@ Individual segment page styles
 /* ===== [ Adding background images to some sections ] ===== */
 
 .index-banner {
-    background-image: url(../assets/img/banner_images/index2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; 
@@ -371,11 +370,12 @@ Individual segment page styles
 
 @media all and (max-width: 450px) {
     .index-banner {
+        background-image: url(../assets/img/banner_images/index2.jpg);
         background-position: center;
         background-size: cover;
-        margin-top: 20px;
-        -webkit-animation:4500ms linear 0s infinite alternate running rotating-banner;
-        animation:  45s linear 0s infinite alternate running rotating-banner;
+        margin-top: 10px;
+        -webkit-animation:1800ms linear 0s 2 alternate running rotating-banner;
+        animation:  18s linear 0s 2 alternate running rotating-banner;
     }
     .about-banner-inner {
         margin-top: 20px;
