@@ -357,6 +357,12 @@ Individual segment page styles
     background-position: top;
     width: 100%; 
 }
+.records-art {
+    transition: all .6s ;
+}
+.records-art:hover {
+    transform: translateY(-9px)
+}
 .productions-banner {
     background-image: url(../assets/img/gallery/g14.jpg);
     background-repeat: no-repeat;
@@ -391,8 +397,8 @@ Individual segment page styles
         animation-iteration-count: infinite;
         animation-direction: alternate;
         animation-timing-function: linear; */
-        -webkit-animation:1800ms linear 0s infinite alternate running rotating-banner;
-        animation:  18s linear 0s infinite alternate running rotating-banner;
+        /* -webkit-animation:1800ms linear 0s infinite alternate running rotating-banner;
+        animation:  18s linear 0s infinite alternate running rotating-banner; */
     }
     .about-banner-inner {
         margin-top: 20px;
