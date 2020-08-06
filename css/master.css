@@ -391,8 +391,8 @@ Individual segment page styles
         background-position: center;
         background-size: cover;
         margin-top: 10px;
-        /* animation-play-state: running;
-        animation-name: rotating-banner;
+        animation-play-state: paused;
+        /* animation-name: rotating-banner;
         animation-duration: 18s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
