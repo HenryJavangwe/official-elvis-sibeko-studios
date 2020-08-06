@@ -8,6 +8,9 @@ body {
     background-color: #000000;
     color: #ffffff;
 }
+h4 {
+    color: goldenrod;
+}
 /* 
 ===== [ Collective banner page styles ] =====
 */
@@ -243,9 +246,14 @@ Individual segment page styles
 }
 
 /* 
-== Danzatainment==
+== Records ==
  */
-
+.row div .records-art {
+    width: 100%;
+    max-height: 290px;
+    height: 100%;
+    margin: 15px 5px;
+}
  /* 
 ==productions page==
 */
@@ -377,9 +385,14 @@ Individual segment page styles
         background-position: center;
         background-size: cover;
         margin-top: 10px;
-        animation-play-state: paused;
-        /* -webkit-animation:1800ms linear 0s infinite alternate running rotating-banner;
-        animation:  18s linear 0s infinite alternate running rotating-banner; */
+        animation-play-state: running;
+        animation-name: rotating-banner;
+        animation-duration: 18s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+        -webkit-animation:1800ms linear 0s infinite alternate running rotating-banner;
+        /* animation:  18s linear 0s infinite alternate running rotating-banner; */
     }
     .about-banner-inner {
         margin-top: 20px;
