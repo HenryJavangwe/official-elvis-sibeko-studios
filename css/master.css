@@ -385,14 +385,14 @@ Individual segment page styles
         background-position: center;
         background-size: cover;
         margin-top: 10px;
-        animation-play-state: running;
+        /* animation-play-state: running;
         animation-name: rotating-banner;
         animation-duration: 18s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-        animation-timing-function: linear;
+        animation-timing-function: linear; */
         -webkit-animation:1800ms linear 0s infinite alternate running rotating-banner;
-        /* animation:  18s linear 0s infinite alternate running rotating-banner; */
+        animation:  18s linear 0s infinite alternate running rotating-banner;
     }
     .about-banner-inner {
         margin-top: 20px;
