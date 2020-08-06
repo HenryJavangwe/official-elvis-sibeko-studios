@@ -254,6 +254,11 @@ Individual segment page styles
     height: 100%;
     margin: 15px 5px;
 }
+@media all and (max-width:768px){
+    .art-wrapper {
+        margin: auto;
+    }
+}
  /* 
 ==productions page==
 */
