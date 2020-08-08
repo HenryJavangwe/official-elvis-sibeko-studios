@@ -25,3 +25,11 @@
     height: 350px;
     text-align: center;
 }
+@media all and (max-width: 768px) {
+    .i-text {
+        filter: none;
+    }
+    .contact-btn {
+        border: 2px solid #000000;
+    }
+}
