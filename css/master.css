@@ -46,7 +46,6 @@ h1,
     color: goldenrod;
     transform: translateY(230px);
 }
-
 h2 {
     font-size: 3.1rem;
 }
@@ -316,7 +315,7 @@ Individual segment page styles
         background-position: center center;
     }
     100% {
-        background-image: url(../assets/img/banner_images/index3.JPG);
+        background-image: url(../assets/img/banner_images/index33.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
